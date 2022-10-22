@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>responsive page</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="carousel owl-carousel">
+        <div class="card">
+          <div class="card-content">
+
+            <div class="top">
+              <h2>Private Limited Company</h2>
+            </div>
+            <div class="mid">
+              <div class="cost">
+                <h3>Starting</h3>
+                <h1>₹999</h1>
+                <a href="">+ Govt Fees</a>
+              </div>
+            </div>
+            <div class="content">
+              
+              <p>The default option for startups and growing business as only private limited companies can raise venture capital.private limited comapny registarions,directors may be from different share holders.</p>
+              
+            </div>
+            <div class="bottom">
+              <button>Know More</button>
+            </div>
+          </div>
+          </div>
+        <div class="card">
+          <div class="card-content">
+
+            <div class="top">
+              <h2>Limited Liability Partership</h2>
+            </div>
+            <div class="mid">
+              <div class="cost">
+                <h3>Starting</h3>
+                <h1>₹2999</h1>
+                <a href="">+ Statutory Fees</a>
+              </div>
+            </div>
+            <div class="content">
+              <p>LLP was intoduced to provide form of buisness that is easy to maintian and to help owners by providong them with limited liability. It combines the benfits of a partnershio with that of a limited liability company.</p>
+            </div>
+            <div class="bottom">
+              <button>Know More</button>
+            </div>
+          </div>
+          </div>
+        <div class="card">
+          <div class="card-content">
+
+            <div class="top">
+              <h2>One Person Company</h2>
+            </div>
+            <div class="mid">
+              <div class="cost">
+                <h3>Starting</h3>
+                <h1>₹5998</h1>
+                <a href=""> * All Inclusive</a>
+              </div>
+            </div>
+            <div class="content">
+              <p>The best structire for soo enterprenures looking beyond the opportunities a sole propriestorship affords. Here,a single  promoter gains full authority over the company.The said person  will be the sole shareholder and director.
+              </p>
+            </div>
+            <div class="bottom">
+              <button>Know More</button>
+            </div>
+          </div>
+          </div>
+        <div class="card">
+          <div class="card-content">
+
+            <div class="top">
+              <h2>Partership Firm</h2>
+            </div>
+            <div class="mid">
+              <div class="cost">
+                <h3>Starting</h3>
+                <h1>₹4999</h1>
+                <a href="">+ Statutory Fees</a>
+              </div>
+            </div>
+            <div class="content">
+              <p>A buisness structure in which two or more indeviduals manage a biosness per the terms in the partnership Deed.Its bes suited for homes buisness that are unlikely to take any dept due to low cost,ease of setting up and minimal comliance requirements.</p>
+            </div>
+            <div class="bottom">
+              <button>Know More</button>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+    <script>
+      $(".carousel").owlCarousel({
+        margin:20,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause:true,
+        responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true,
+            autoplay:false
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        900:{
+            items:3,
+            nav:false,
+            loop:true
+        }
+    }
+
+      });
+    </script>
+</body>
+</html>
