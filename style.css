@@ -25,6 +25,7 @@ body{
     text-align: center;
     margin: 20px 0px;
     background-color: aliceblue;
+    min-height: 80vh;
 }
 
 .card-content{
@@ -35,7 +36,6 @@ body{
 }
 .card-content .content p {
     text-align: left;
-    min-height: 30vh;
 }
 .mid{
     background-color: rgb(169, 243, 243);
